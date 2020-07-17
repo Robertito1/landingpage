@@ -6,7 +6,10 @@ body{
     min-height: 1500px;
     font-family:  'Montserrat', sans-serif;;
 }
-
+nav{
+    position: relative;
+    background-color: #1d1c1c;
+}
 /* STYLING THE WELCOME SECTION */
 #gifbg{
     background: url("./assets/ezgif.com-optimize.gif");

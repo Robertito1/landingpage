@@ -13,16 +13,20 @@
         integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Document</title>
+    <title>Landing</title>
 </head>
 
 <body>
-
+    <nav class="navbar ">
+        <span class="navbar-brand mb-0 h1 text-white"><i><img src="./assets/Group 19.png" alt=""></i>STARGAZER</span>
+    </nav>
     <div class='container-fluid' id="gifbg">
         <div class="welcometext">
-            <h1 class="animate__animated animate__flash animate__repeat-3">HEY ASTROLOGERS, THE WAIT IS FINALLY OVER !
+            <h1 class="animate__animated animate__backInDown animate__delay-2s">HEAR ASTROLOGERS, THE WAIT IS FINALLY
+                OVER !
             </h1>
             <h3 class="my-3">Stargazer is coming, and with it, all the glories of the cosmos.</h3>
             <h4 class=" my-5">Let us notify you when it launches</h4>
@@ -57,8 +61,8 @@
     <h3 class="text-center py-4">How it works</h3>
     <div class="container ">
         <div class="row d-flex wrapper">
-            <div class="col-md-12 col-lg-6  placardwrapper">
-                <div class="card py-2 mx-auto my-4 stepPlacard">
+            <div class="col-md-12 col-lg-6  placardwrapper ">
+                <div class="card py-2 mx-auto my-4 stepPlacard ">
 
                     <div class="card-block">
                         <h5 class="text-primary">Step 1</h5>
@@ -69,8 +73,9 @@
 
                 </div>
             </div>
-            <div class=" col-md-12 col-lg-6 phonewrapper">
-                <div class="card py-2 my-4 mx-auto stepview">
+            <div class=" col-md-12 col-lg-6 phonewrapper ">
+                <div
+                    class="card py-2 my-4 mx-auto stepview animate__flash animate__slower animate__animated animate__infinite infinite">
 
                     <img src="./assets/Group 90 (1).png" class='card-img-top stepImg'>
                     <div class="card-block"></div>
@@ -82,7 +87,8 @@
     <div class="container ">
         <div class="row d-flex wrapper">
             <div class=" col-md-12 col-lg-6 phonewrapper">
-                <div class="card py-2 my-4 mx-auto stepview">
+                <div
+                    class="card py-2 my-4 mx-auto stepview animate__pulse animate__animated animate__infinite infinite">
 
                     <img src="./assets/Group 93.png" class='card-img-top stepImg'>
                     <div class="card-block"></div>
@@ -118,7 +124,8 @@
                 </div>
             </div>
             <div class=" col-md-12 col-lg-6 phonewrapper">
-                <div class="card py-2 my-4 mx-auto stepview">
+                <div
+                    class="card py-2 my-4 mx-auto stepview animate__tada animate__slow animate__animated animate__infinite infinite">
 
                     <img src="./assets/Group 94 (1).png" class='card-img-top stepImg'>
                     <div class="card-block"></div>
@@ -242,7 +249,8 @@
         <div class="container-fluid padding">
             <div class="row text-center text-nowrap">
                 <div class="col-md-4 align-self-end">
-                    <h2 id="footer-head" class="text-md-left">Stargazer</h2>
+                    <h2 id="footer-head" class="text-md-left"> <i><img src="./assets/Group 19.png" alt=""></i> Stargazer
+                    </h2>
                     <p class='text-md-left'>...bringing you the beauty of the universe</p>
                     <!-- <div class="text-md-left" id="icon-div">
                         <i class="fab fa-facebook-f"></i>
@@ -275,6 +283,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
