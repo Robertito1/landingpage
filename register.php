@@ -49,6 +49,8 @@ else{
                  height: 100vh;
                  background: url('./assets/ezgif.com-optimize.gif');
                  background-repeat: no-repeat;
+                 background-size: cover;
+
              }
          </style>
      </body>
